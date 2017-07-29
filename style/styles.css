@@ -1,0 +1,109 @@
+html, body {
+  background-color: #eee;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0; }
+
+p::-moz-selection {
+  background-color: orange;
+  color: white; }
+
+p::selection {
+  background-color: orange;
+  color: white; }
+
+h4::-moz-selection {
+  background-color: orange;
+  color: white; }
+
+h4::selection {
+  background-color: orange;
+  color: white; }
+
+h1::-moz-selection {
+  background-color: orange;
+  color: white; }
+
+h1::selection {
+  background-color: orange;
+  color: white; }
+
+.titleBar {
+  width: 100%;
+  background-color: #333;
+  margin-bottom: 25px;
+  border-bottom: thick solid orange; }
+
+h1 {
+  padding-top: 20px; }
+
+#titleText {
+  color: white; }
+
+#titleSeperation {
+  border-color: orange;
+  border-width: 2px;
+  width: 130%;
+  margin-left: -10%;
+  margin-right: -10%; }
+
+#containerSeperation {
+  border-color: orange;
+  border-width: 1px;
+  width: 85px; }
+
+.u-full-width {
+  margin: 0; }
+
+.container {
+  text-align: left; }
+
+.github {
+  margin-bottom: 2em; }
+
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+a {
+  text-decoration: none;
+  font-family: raleway; }
+
+button {
+  font-family: raleway;
+  -webkit-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  transition: background-color 0.4s; }
+
+button:hover {
+  background-color: orange;
+  color: white; }
+
+hr {
+  color: #990000; }
+
+#graphicsBtn {
+  text-align: center; }
+
+#codeBtn {
+  text-align: center; }
+
+@media (min-width: 550px) {
+  #graphicsBtn {
+    text-align: left; }
+  #codeBtn {
+    text-align: right; } }
+
+footer {
+  height: 70px;
+  width: 100%;
+  margin-top: 5%;
+  background-color: #333;
+  text-align: center;
+  color: white;
+  padding-top: 15px; }
