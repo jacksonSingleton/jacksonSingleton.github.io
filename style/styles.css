@@ -87,7 +87,10 @@ button {
 
 button:hover {
   background-color: orange;
-  color: white; }
+  color: white;
+  -webkit-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  transition: background-color 0.4s; }
 
 hr {
   color: #990000; }
