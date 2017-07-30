@@ -139,8 +139,14 @@ hr {
     text-align: right; } }
 
 #email {
-  color: orange;
-  text-decoration: underline; }
+  color: black;
+  text-decoration: underline;
+  -webkit-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s; }
+
+#email:hover {
+  color: orange; }
 
 footer {
   height: 70px;
