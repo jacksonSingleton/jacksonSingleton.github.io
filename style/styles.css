@@ -20,6 +20,14 @@ h4::selection {
   background-color: orange;
   color: white; }
 
+h5::-moz-selection {
+  background-color: orange;
+  color: white; }
+
+h5::selection {
+  background-color: orange;
+  color: white; }
+
 h1::-moz-selection {
   background-color: orange;
   color: white; }
