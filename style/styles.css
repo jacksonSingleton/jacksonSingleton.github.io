@@ -44,6 +44,14 @@ button::selection {
   background-color: orange;
   color: white; }
 
+#email::-moz-selection {
+  background-color: orange;
+  color: white; }
+
+#email::selection {
+  background-color: orange;
+  color: white; }
+
 .titleBar {
   width: 100%;
   background-color: #333;
@@ -112,13 +120,27 @@ hr {
 #resumeBtn {
   text-align: center; }
 
+.left-media {
+  text-align: center; }
+
+.right-media {
+  text-align: center; }
+
 @media (min-width: 550px) {
   #graphicsBtn {
     text-align: center; }
   #codeBtn {
     text-align: right; }
   #resumeBtn {
-    text-align: left; } }
+    text-align: left; }
+  .left-media {
+    text-align: left; }
+  .right-media {
+    text-align: right; } }
+
+#email {
+  color: orange;
+  text-decoration: underline; }
 
 footer {
   height: 70px;
