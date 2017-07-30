@@ -35,7 +35,9 @@ h1::selection {
   border-bottom: thick solid orange; }
 
 h1 {
-  padding-top: 20px; }
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 #titleText {
   color: white; }
@@ -93,11 +95,16 @@ hr {
 #codeBtn {
   text-align: center; }
 
+#resumeBtn {
+  text-align: center; }
+
 @media (min-width: 550px) {
   #graphicsBtn {
-    text-align: left; }
+    text-align: center; }
   #codeBtn {
-    text-align: right; } }
+    text-align: right; }
+  #resumeBtn {
+    text-align: left; } }
 
 footer {
   height: 70px;
