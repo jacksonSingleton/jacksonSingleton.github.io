@@ -50,17 +50,12 @@ h1 {
 #titleText {
   color: white; }
 
-#titleSeperation {
-  border-color: orange;
-  border-width: 2px;
-  width: 130%;
-  margin-left: -10%;
-  margin-right: -10%; }
-
-#containerSeperation {
+.containerSeperation {
   border-color: orange;
   border-width: 1px;
-  width: 85px; }
+  width: 85px;
+  margin-top: 35px;
+  margin-bottom: 35px; }
 
 .u-full-width {
   margin: 0; }
