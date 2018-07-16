@@ -6,6 +6,9 @@ html,body
 p::selection
   background-color: orange
   color: white
+h3::selection
+  background-color: white
+  color: black
 h4::selection
   background-color: orange
   color: white
@@ -27,22 +30,31 @@ button::selection
   position: fixed
   z-index: 999
 
-#topContainer
-  margin-top: 55px
+
 h1
   padding-top: 10px
   padding-left: 10px
   padding-right: 10px
+
 #titleText
   color: white
 
+#infoForm
+  margin-left: 50%
 .containerSeperation
   border-color: orange
   border-width: 1px
   width: 85px
   margin-top: 35px
   margin-bottom: 35px
-
+  
+#bigPicture
+  height: 85vh
+  overflow: hidden
+  background-image: url('../img/heroShot.png')
+  background-size: cover
+  padding-top: 40vh
+  padding-left: 15vw
 .u-full-width
   margin: 0
 .container
@@ -55,6 +67,15 @@ h1
   text-align: center
 .right
   text-align: right
+#sendBtn
+  background-color: white
+  color: black
+  font-family: raleway
+  transition: all 0.4s
+#sendBtn:hover
+  background-color: #7F5200
+  color: white
+  transition: all 0.4s
 
 a
   text-decoration: none
