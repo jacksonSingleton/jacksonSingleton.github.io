@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./style/styles.css" />    
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
     <link rel="icon" type="img\png" href="icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,20 +12,24 @@
   <body>
     <div class="row u-full-width">
       <div class="twelve columns titleBar">
-          <img src="img/logo.svg" alt="Personal Logo" class="icons"/>
+          <img src="img/logo.svg" alt="Personal Logo" id="logo"/>
           <!--<h1 style="text-align: center; color: #cecece">Jackson Singleton</h1>-->
           <!--<hr id="titleSeperation"></hr>-->
       </div>
     </div>
 <div class="u-full-width" id="bigPicture">
-  <h2 id="welcomeTag">Hi!</h2>
-  <h5>Keep in Touch:</h5>
-  <form action="https://formspree.io/jacksonsingleton1@gmail.com"
-      method="POST">
-    <input type="text" name="name" placeholder="What's Your Name?">
-    <input type="email" name="_replyto" placeholder="How About Your E-Mail?">
-    <input type="submit" value="Send" id="sendBtn">
-</form>
+  <div class="container">
+    <h2 id="welcomeTag">Howdy!</h2>
+    <h5>Keep in Touch:</h5>
+    <div class="row">
+      <form action="https://formspree.io/jacksonsingleton1@gmail.com"
+          method="POST">
+        <input type="text" name="name" placeholder="What's Your Name?">
+        <input type="email" name="_replyto" placeholder="How About Your E-Mail?">
+        <input type="submit" id="sendBtn" value="Send">
+      </form>
+    </div>
+  </div>
 </div>
 <div class="container" id="topContainer">
   <br id="bigBr">
@@ -53,7 +57,7 @@
     <div class="container experience">
       <div class="row">
         <div class="twelve columns center">
-            <img src="img/Brackets.svg" alt="Bracket Icon" class="icons"/>
+            <img src="img/Code.svg" alt="Bracket Icon" class="icons"/>
           </div>
         </div>
       <div class="row">
@@ -95,7 +99,7 @@
     <div class="container blank">
         <div class="row">
             <div class="twelve columns center">
-                <img src="img/Brush.svg" alt="Brush Icon" class="icons"/>
+                <img src="img/Design.svg" alt="Brush Icon" class="icons"/>
               </div>
             </div>
       <div class="row">

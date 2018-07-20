@@ -1,5 +1,5 @@
 html, body {
-  background-color: #eee;
+  background-color: #fff;
   overflow-x: hidden;
   margin: 0;
   padding: 0; }
@@ -84,13 +84,14 @@ h1 {
 
 .containerSeperation {
   border-color: orange;
-  border-width: 1px;
-  width: 85px;
+  border-width: 3px;
+  border-style: solid;
+  width: 65px;
   margin-top: 35px;
   margin-bottom: 35px; }
 
 #bigPicture {
-  height: 85vh;
+  height: 650px;
   overflow: hidden;
   background-image: url("../img/heroShot.png");
   background-size: cover;
@@ -118,12 +119,12 @@ h1 {
   text-align: right; }
 
 #sendBtn {
-  background-color: white;
   color: black;
   font-family: raleway;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
-  transition: all 0.4s; }
+  transition: all 0.4s;
+  border: solid 2px white; }
 
 #sendBtn:hover {
   background-color: #7F5200;
@@ -161,8 +162,11 @@ hr {
 #resumeBtn {
   text-align: center; }
 
-.icons {
+#logo {
   width: 100px; }
+
+.icons {
+  width: 140px; }
 
 .left-media {
   text-align: center; }
