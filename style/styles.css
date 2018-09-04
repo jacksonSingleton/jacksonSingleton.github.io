@@ -93,12 +93,165 @@ h1 {
 #bigPicture {
   height: 650px;
   overflow: hidden;
-  background-image: url("../img/heroShot.png");
+  background-color: orange;
   background-size: cover;
   padding-top: 40vh;
   padding-left: 15vw;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  z-index: -999; }
+
+.bubble {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #e69500;
+  position: absolute;
+  -webkit-animation-name: bubbleGeneral;
+  animation-name: bubbleGeneral;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; }
+
+#bubble1 {
+  margin-top: 15%; }
+
+@-webkit-keyframes bubbleGeneral {
+  from {
+    width: 80px;
+    height: 80px; }
+  to {
+    width: 120px;
+    height: 120px; } }
+
+@keyframes bubbleGeneral {
+  from {
+    width: 80px;
+    height: 80px; }
+  to {
+    width: 120px;
+    height: 120px; } }
+
+#biggestBubble {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background-color: #ffaf1a;
+  position: absolute;
+  margin-left: 27%;
+  margin-top: -18%;
+  -webkit-animation-name: biggestBubble;
+  animation-name: biggestBubble;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  z-index: 0; }
+
+@-webkit-keyframes biggestBubble {
+  from {
+    width: 350px;
+    height: 350px; }
+  to {
+    width: 460px;
+    height: 460px; } }
+
+@keyframes biggestBubble {
+  from {
+    width: 350px;
+    height: 350px; }
+  to {
+    width: 460px;
+    height: 460px; } }
+
+#smallBubble {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #ffc14d;
+  background-attachment: fixed;
+  position: absolute;
+  margin-left: 0;
+  margin-top: -20%;
+  -webkit-animation-name: smallBubble;
+  animation-name: smallBubble;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes smallBubble {
+  from {
+    width: 60px;
+    height: 60px; }
+  to {
+    width: 140px;
+    height: 140px; } }
+
+@keyframes smallBubble {
+  from {
+    width: 60px;
+    height: 60px; }
+  to {
+    width: 140px;
+    height: 140px; } }
+
+#bigBubble {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #553100;
+  background-attachment: fixed;
+  margin-left: 60%;
+  -webkit-animation-name: bubbleSize;
+  animation-name: bubbleSize;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes bubbleSize {
+  from {
+    width: 120px;
+    height: 120px; }
+  to {
+    width: 230px;
+    height: 230px; } }
+
+@keyframes bubbleSize {
+  from {
+    width: 120px;
+    height: 120px; }
+  to {
+    width: 230px;
+    height: 230px; } }
+
+@media screen and (max-width: 800px) {
+  #bubble1 {
+    display: none; }
+  #biggestBubble {
+    display: none; }
+  #bigBubble {
+    display: none; }
+  #smallBubble {
+    display: none; } }
 
 .u-full-width {
   margin: 0; }

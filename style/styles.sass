@@ -57,12 +57,107 @@ h1
 #bigPicture
   height: 650px
   overflow: hidden
-  background-image: url('../img/heroShot.png')
+  background-color: orange
   background-size: cover
   padding-top: 40vh
   padding-left: 15vw
   background-repeat: no-repeat
   background-attachment: fixed
+  z-index: -999
+//Bubble Animations
+.bubble
+  width: 80px
+  height: 80px
+  border-radius: 100%
+  background-color: #e69500
+  position: absolute
+  animation-name: bubbleGeneral
+  animation-duration: 4s
+  animation-iteration-count: infinite
+  animation-direction: alternate
+  animation-timing-function: ease-in-out
+#bubble1
+  margin-top: 15%
+@keyframes bubbleGeneral
+  from
+    width: 80px
+    height: 80px
+  to
+    width: 120px
+    height: 120px
+#biggestBubble
+  width: 350px
+  height: 350px
+  border-radius: 100%
+  background-color: #ffaf1a
+  position: absolute
+  margin-left: 27%
+  margin-top: -18%
+  animation-name: biggestBubble
+  animation-duration: 9s
+  animation-iteration-count: infinite
+  animation-direction: alternate
+  animation-timing-function: ease-in-out
+  z-index: 0
+@keyframes biggestBubble
+  from
+    width: 350px
+    height: 350px
+  to
+    width: 460px
+    height: 460px
+#smallBubble
+  width: 60px
+  height: 60px
+  border-radius: 100%
+  background-color: #ffc14d
+  background-attachment: fixed
+  position: absolute
+  margin-left: 0
+  margin-top: -20%
+  animation-name: smallBubble
+  animation-duration: 4s
+  animation-iteration-count: infinite
+  animation-direction: alternate
+  animation-timing-function: ease-in-out
+@keyframes smallBubble
+  from
+    width: 60px
+    height: 60px
+  to
+    width: 140px
+    height: 140px
+#bigBubble
+  width: 120px
+  height: 120px
+  border-radius: 100%
+  background-color: #553100
+  background-attachment: fixed
+  margin-left: 60%
+  animation-name: bubbleSize
+  animation-duration: 7s
+  animation-iteration-count: infinite
+  animation-direction: alternate
+  animation-timing-function: ease-in-out
+@keyframes bubbleSize
+  from
+    width: 120px
+    height: 120px
+  to
+    width: 230px
+    height: 230px
+
+
+@media screen and (max-width: 800px)
+  #bubble1
+    display: none
+  #biggestBubble
+    display: none
+  #bigBubble
+    display: none
+  #smallBubble
+    display: none
+  
 .u-full-width
   margin: 0
 .container
