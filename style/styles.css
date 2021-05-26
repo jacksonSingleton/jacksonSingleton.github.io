@@ -99,11 +99,11 @@ h1 {
   margin-bottom: 35px; }
 
 #bigPicture {
-  height: 48vh;
+  height: 32vh;
   overflow: hidden;
   background-color: orange;
   background-size: cover;
-  padding-top: 40vh;
+  padding-top: 12vh;
   padding-left: 15vw;
   background-image: url("../img/heroShot.png");
   background-repeat: no-repeat;
